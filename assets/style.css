@@ -1,0 +1,28 @@
+body {
+    background-image: url("image/stars-galaxy-high-definition-free-download-earth-wallpapers-iphone-wallpapers-airspace-1920x1200.jpg");
+    background-size: cover; 
+}
+
+.jumbotron {
+    background-image: url("image/balls-sports-pattern-background-vector-17154716.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(60, 197, 202); 
+    font-weight: bold;
+}
+
+#gif-input-design {
+    color: rgb(60, 197, 202);
+}
+
+#add-gif {
+    background-color: rgb(12, 148, 153);
+    color: white;
+    border-style: none;
+}
+
+#gifs-view {
+    color: rgb(60, 197, 202);
+}
