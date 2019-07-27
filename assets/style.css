@@ -1,6 +1,6 @@
 body {
     background-image: url("image/stars-galaxy-high-definition-free-download-earth-wallpapers-iphone-wallpapers-airspace-1920x1200.jpg");
-    background-size: cover; 
+    background-size: cover;
 }
 
 .jumbotron {
@@ -17,12 +17,37 @@ h1 {
     color: rgb(60, 197, 202);
 }
 
-#add-gif {
+#add-gif, .gif-btn {
     background-color: rgb(12, 148, 153);
     color: white;
     border-style: none;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 #gifs-view {
     color: rgb(60, 197, 202);
 }
+
+.gif {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 2px solid rgb(60, 197, 202);
+}
+
+.gif:hover {
+	-moz-box-shadow: 0 0 20px #ccc;
+	-webkit-box-shadow: 0 0 20px #ccc;
+	box-shadow: 0 0 20px #ccc;
+}
+
+.gifGrid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-column-gap: 10px;
+    grid-row-gap: 7px; 
+}
+
